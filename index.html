@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Tee Talibsao</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- NAVIGATION -->
+  <nav class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-lg font-bold">Jay Tee Talibsao</div>
+      <div class="space-x-6 hidden md:flex">
+        <a href="#about" class="text-gray-300 hover:text-white transition">About</a>
+        <a href="#projects" class="text-gray-300 hover:text-white transition">Projects</a>
+        <a href="#experiences" class="text-gray-300 hover:text-white transition">Experiences</a>
+        <a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-7xl mx-auto px-4 pt-32 space-y-24">
+
+    <!-- About Section -->
+    <section id="about" class="scroll-mt-32 space-y-10">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <img src="assets/pic.jpg" alt="avatar"
+             class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-indigo-600 shadow-md" />
+        <div class="text-center md:text-left">
+          <h1 class="text-3xl font-bold mb-2">Jay Tee B. Talibsao</h1>
+          <p class="text-gray-300 max-w-3xl">
+            A passionate software developer with hands-on technical support experience.
+            As a recent BSIT graduate recognized with multiple academic awards, I enjoy solving problems through
+            logical design, clean interfaces, and structured development. I’m adaptable, a fast learner, and always
+            eager to improve through real-world challenges and collaboration.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h2 class="text-xl font-semibold text-indigo-400 mb-2">Skills</h2>
+          <ul class="list-disc list-inside text-gray-300 space-y-1">
+            <li>HTML, CSS, JavaScript, PHP</li>
+            <li>Java Desktop Application (AWT, Swing)</li>
+            <li>MySQL Database Management</li>
+            <li>Troubleshooting and Configuration (Hardware, Software, Network)</li>
+            <li>Basic Data Analysis (Power BI, Excel)</li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-xl font-semibold text-indigo-400 mb-2">Awards & Recognition</h2>
+          <ul class="list-disc list-inside text-gray-300 space-y-1">
+            <li>Programmer of the Year</li>
+            <li>Best Capstone Project in Network Administration</li>
+            <li>CEITE Academic Distinction Award</li>
+            <li>Dean's Lister (2022–2024)</li>
+            <li>With Honors – BSIT & ICT Track</li>
+            <li>Tenor & Performer of the Year</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="scroll-mt-32 space-y-12">
+      <h2 class="text-2xl font-semibold text-indigo-400">Projects</h2>
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <img src="assets/logit.ico" alt="Log IT"
+             class="w-32 h-32 md:w-36 md:h-36 rounded-full object-cover border-4 border-indigo-600 shadow-md" />
+        <div class="text-center md:text-left">
+          <h1 class="text-2xl font-bold mb-2">Log IT: A Digital Logbook with Issue Tracking System</h1>
+          <p class="text-gray-300 max-w-3xl">
+            A desktop and web-based system for computer laboratory operations that records and tracks user logs and reported issues. 
+            Built with Java, HTML, JavaScript, CSS, PHP, and MySQL.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <img src="assets/nsmdih.png" alt="NSMDIH"
+             class="w-32 h-32 md:w-36 md:h-36 rounded-full object-cover border-4 border-indigo-600 shadow-md" />
+        <div class="text-center md:text-left">
+          <h1 class="text-2xl font-bold mb-2">NSMDIH: Job Order System</h1>
+          <p class="text-gray-300 max-w-3xl">
+            A web-based ticketing system developed during my on-the-job training. Allows issue reporting and tracking by administrators. 
+            Built with HTML, CSS, JavaScript, PHP, and MySQL.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="scroll-mt-32">
+      <h1 class="text-2xl font-bold mb-4">Experiences</h1>
+      <p class="text-gray-300 max-w-3xl">
+        On-the-job training at New Sinai MDI Hospital involved providing technical support and developing a Job Order System. 
+        I also completed a short internship as a QA Inspector at Ryonan Electric Philippines, where I conducted quality checks for wire assemblies.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="scroll-mt-32 text-center">
+      <h2 class="text-2xl font-bold mb-4">Let’s Connect</h2>
+      <div class="flex justify-center gap-4">
+        <a href="mailto:jayteex8@gmail.com" target="_blank"
+           class="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition">
+          Email Me
+        </a>
+        <a href="https://github.com/jeytix8" target="_blank"
+           class="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition">
+          GitHub
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
